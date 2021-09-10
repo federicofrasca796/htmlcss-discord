@@ -21,6 +21,18 @@
     background-color: lightskyblue;
     height: 60%;
 }
+.debug h1{
+    background-color: black;
+    height: 2rem;
+}
+.debug p{
+    background-color: gray;
+    height:50%
+}
+.debug .btn{
+    height: 35px;
+    width:200px;
+}
 
 /* header */
 #site_header{
@@ -36,15 +48,26 @@
 }
 .intro{
     /* max-height: 90%; */
-    padding: 0 10%;
+    padding: 5% 10%;
+    text-align: center;
 }
-
+.intro h1{
+    margin-bottom: 2rem;
+}
 /* utility */
-.white_txt{}
-.white_bg{}
-.black_bg{}
+.white_txt{
+    color:white;
+}
+.white_bg{
+    background-color: white;
+}
+.black_bg{
+    background-color: rgb(31, 31, 31);
+}
 .btn{
     display: inline-block;
+    padding:.5rem;
+    margin: 1.2rem;
 }
 
 
