@@ -16,11 +16,10 @@
 }
 .debug nav{
     background-color: cyan;
-    height: 10%;
 }
 .debug .intro{
     background-color: lightskyblue;
-    height: 70%;
+    height: 60%;
 }
 
 /* header */
@@ -29,11 +28,15 @@
 }
 #site_header>*{
     width: 70% ;
-    margin: 0 auto 4%;
+    margin: auto;
 }
-
+#site_header>nav{
+    height: 10%;
+    margin-bottom: 5%;
+}
 .intro{
-    /* max-height: 90%; OPTIONAL: potenzialmente utile per la fase successiva (?), il testo non viene bloccato però.  */
+    /* max-height: 90%; */
+    padding: 0 10%;
 }
 
 /* utility */
