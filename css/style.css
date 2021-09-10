@@ -21,7 +21,7 @@
     background-color: lightskyblue;
     height: 60%;
 }
-.debug h1{
+.debug h1,h2{
     background-color: black;
     height: 2rem;
 }
@@ -39,6 +39,9 @@
 .debug.section_pad.gray_bg{
     background-color: darkgray;
 }
+.debug .container{
+    height:80%
+}
 .debug .side_img{
     background-color: lightsalmon;
     height:100%;
@@ -51,9 +54,20 @@
     height:20%;
     background-color: lightslategrey;
 }
+
 .debug .bottom_img{
     height: 80%;
     background-color: salmon;
+}
+.debug main>section:last-child{
+    height: 100px;
+}
+.debug footer{
+    height: 500px;
+}
+.debug .section_col{
+    height: 200px;
+    background-color: seashell;
 }
 
 /* header */
@@ -69,7 +83,6 @@
     margin-bottom: 5%;
 }
 .intro{
-    /* max-height: 90%; */
     padding: 0 10%;
     text-align: center;
 }
@@ -77,7 +90,7 @@
     margin-bottom: 2rem;
 }
 
-/* sections */
+/* main */
 .side_img,.side_txt{
     float: left;
 }
@@ -92,20 +105,33 @@
 }
 .top_txt{
     text-align: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
     margin-bottom:2rem;
 }
-.bottom_img{
 
-}
 main h1{
     margin-bottom: 2rem;
 }
-main>section:last-child{
+main>section>div:last-child{
     text-align: center;
 }
 
+/* footer */
+#site_footer .container>.section_col:first-child{
+    width: 20%;
+}
+#site_footer .section_col{
+    float:left;
+    padding:0 1%;
+    width: 10% ;
+}
+
+
 /* utility */
+.container{
+    width: 70% ;
+    margin: auto;
+}
 .white_txt{
     color:white;
 }
@@ -120,6 +146,9 @@ main>section:last-child{
 }
 .purple_bg{
     background-color: #8EA1E1;
+}
+.darkblue_bg{
+    background-color: #23272A;
 }
 .btn{
     display: inline-block;
