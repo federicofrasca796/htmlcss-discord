@@ -26,12 +26,34 @@
     height: 2rem;
 }
 .debug p{
-    background-color: gray;
+    background-color: rgb(49, 49, 49);
     height:50%
 }
 .debug .btn{
     height: 35px;
     width:200px;
+}
+.debug section{
+    height: 600px;
+}
+.debug.section_pad.gray_bg{
+    background-color: darkgray;
+}
+.debug .side_img{
+    background-color: lightsalmon;
+    height:100%;
+}
+.debug .side_txt{
+    background-color: lightslategrey;
+    height:100%;
+}
+.debug .top_txt{
+    height:20%;
+    background-color: lightslategrey;
+}
+.debug .bottom_img{
+    height: 80%;
+    background-color: salmon;
 }
 
 /* header */
@@ -48,12 +70,39 @@
 }
 .intro{
     /* max-height: 90%; */
-    padding: 5% 10%;
+    padding: 0 10%;
     text-align: center;
 }
 .intro h1{
     margin-bottom: 2rem;
 }
+
+/* sections */
+.side_img,.side_txt{
+    float: left;
+}
+.side_img{
+    width:60%;
+}
+.side_txt{
+    width:30%;
+}
+.clearfix.section_pad>div:first-child{
+    margin-right:10%;
+}
+.top_txt{
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom:2rem;
+}
+.bottom_img{
+
+}
+main h1{
+    margin-bottom: 2rem;
+}
+
+
 /* utility */
 .white_txt{
     color:white;
@@ -64,12 +113,17 @@
 .black_bg{
     background-color: rgb(31, 31, 31);
 }
+.gray_bg{
+    background-color: darkgray;
+}
 .btn{
     display: inline-block;
     padding:.5rem;
     margin: 1.2rem;
 }
-
+.section_pad{
+    padding: 10%;
+}
 
 
 
