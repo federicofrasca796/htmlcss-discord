@@ -101,7 +101,9 @@
 main h1{
     margin-bottom: 2rem;
 }
-
+main>section:last-child{
+    text-align: center;
+}
 
 /* utility */
 .white_txt{
@@ -115,6 +117,9 @@ main h1{
 }
 .gray_bg{
     background-color: darkgray;
+}
+.purple_bg{
+    background-color: #8EA1E1;
 }
 .btn{
     display: inline-block;
