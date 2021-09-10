@@ -9,3 +9,12 @@
     display: table;
     clear: both;
 }
+
+/* debug */
+.debug>#site_header{
+    background-color: greenyellow;
+}
+
+#site_header{
+    height: 70vh;
+}
