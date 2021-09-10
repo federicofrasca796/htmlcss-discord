@@ -14,7 +14,21 @@
 .debug>#site_header{
     background-color: greenyellow;
 }
+.debug nav{
+    background-color: cyan;
+    height: 50px;
+}
 
+/* header */
 #site_header{
     height: 70vh;
 }
+#site_header>nav{
+    width: 70% ;
+    margin:auto;
+}
+
+
+
+
+
