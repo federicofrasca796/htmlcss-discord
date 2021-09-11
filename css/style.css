@@ -21,7 +21,7 @@
     background-color: lightskyblue;
     height: 60%;
 }
-.debug h1,h2{
+.debug h1,h2,h3{
     background-color: black;
     height: 2rem;
 }
@@ -60,7 +60,7 @@
     background-color: salmon;
 }
 .debug main>section:last-child{
-    height: 100px;
+    height: 300px;
 }
 .debug footer{
     height: 500px;
@@ -70,6 +70,10 @@
     background-color: seashell;
 }
 
+/* common */
+h1{
+    margin-bottom: 2rem;
+}
 /* header */
 #site_header{
     height: 70vh;
@@ -86,9 +90,6 @@
     padding: 0 10%;
     text-align: center;
 }
-.intro h1{
-    margin-bottom: 2rem;
-}
 
 /* main */
 .side_img,.side_txt{
@@ -103,16 +104,8 @@
 .clearfix.section_pad>div:first-child{
     margin-right:10%;
 }
-.top_txt{
-    text-align: center;
-    /* padding: 0 10%; */
-    margin-bottom:2rem;
-}
-
-main h1{
-    margin-bottom: 2rem;
-}
-main>section>div:last-child{
+/* main>section:last-child>div{ */
+.cta>div{
     text-align: center;
 }
 
