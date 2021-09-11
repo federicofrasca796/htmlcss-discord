@@ -27,7 +27,7 @@
 }
 .debug p{
     background-color: rgb(49, 49, 49);
-    height:50%
+    height:50%;
 }
 .debug .btn{
     height: 35px;
@@ -40,7 +40,7 @@
     background-color: darkgray;
 }
 .debug .container{
-    height:80%
+    height:100%;
 }
 .debug .side_img{
     background-color: lightsalmon;
@@ -122,7 +122,7 @@ h1{
 
 /* utility */
 .container{
-    width: 70% ;
+    width: 70%;
     margin: auto;
 }
 .white_txt{
@@ -149,7 +149,7 @@ h1{
     margin: 1.2rem;
 }
 .section_pad{
-    padding: 10%;
+    padding: 10% 0;
 }
 
 
