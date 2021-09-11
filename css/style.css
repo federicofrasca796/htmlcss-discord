@@ -10,65 +10,42 @@
     clear: both;
 }
 
-/* debug */
-.debug>#site_header{
-    background-color: greenyellow;
+/* utility */
+.container{
+    width: 70%;
+    margin: auto;
 }
-.debug nav{
-    background-color: cyan;
+.white_txt{
+    color:white;
 }
-.debug .intro{
-    background-color: lightskyblue;
-    height: 60%;
+.white_bg{
+    background-color: white;
 }
-.debug h1,h2,h3{
-    background-color: black;
-    height: 2rem;
+.black_bg{
+    background-color: rgb(31, 31, 31);
 }
-.debug p{
-    background-color: rgb(49, 49, 49);
-    height:50%;
-}
-.debug .btn{
-    height: 35px;
-    width:200px;
-}
-.debug section{
-    height: 600px;
-}
-.debug.section_pad.gray_bg{
+.gray_bg{
     background-color: darkgray;
 }
-.debug .container{
-    height:100%;
+.purple_bg{
+    background-color: #8EA1E1;
 }
-.debug .side_img{
-    background-color: lightsalmon;
-    height:100%;
+.darkblue_bg{
+    background-color: #23272A;
 }
-.debug .side_txt{
-    background-color: lightslategrey;
-    height:100%;
+.btn{
+    display: inline-block;
+    padding:.5rem;
+    margin: 1.2rem;
 }
-.debug .top_txt{
-    height:20%;
-    background-color: lightslategrey;
+.section_pad{
+    padding: 10% 0;
+}
+.footer_pad{
+    padding: 6% 0;
 }
 
-.debug .bottom_img{
-    height: 80%;
-    background-color: salmon;
-}
-.debug main>section:last-child{
-    height: 300px;
-}
-.debug footer{
-    height: 500px;
-}
-.debug .section_col{
-    height: 200px;
-    background-color: seashell;
-}
+/* body -----------------------------------------------------------------------*/
 
 /* common */
 h1{
@@ -110,47 +87,95 @@ h1{
 }
 
 /* footer */
-#site_footer .container>.section_col:first-child{
-    width: 20%;
+.footer_links>.footer_col:first-child{
+    width: 25%;
 }
-#site_footer .section_col{
+.footer_col{
     float:left;
-    padding:0 1%;
-    width: 10% ;
+    margin-right:7%;
+    width: 10%;
 }
-
-
-/* utility */
-.container{
-    width: 70%;
-    margin: auto;
+#site_footer>div>*:last-child{
+    margin-top:5%;
+    border-top: 2px solid #8EA1E1;
 }
-.white_txt{
-    color:white;
+.signup{
+    position: relative;
 }
-.white_bg{
-    background-color: white;
+.signup>.logo,.signup>a{
+    margin: 2% 0;
 }
-.black_bg{
-    background-color: rgb(31, 31, 31);
+.signup .btn{
+    position: absolute;
+    right: 0;
 }
-.gray_bg{
+/* DEBUG -------------------------------------------------------------------------------- */
+.debug>#site_header{
+    background-color: greenyellow;
+}
+.debug nav{
+    background-color: cyan;
+}
+.debug .intro{
+    background-color: lightskyblue;
+    height: 60%;
+}
+.debug h1,h2,h3{
+    background-color: black;
+    height: 2rem;
+}
+.debug p{
+    background-color: rgb(49, 49, 49);
+    height:50%;
+}
+.debug .btn{
+    height: 35px;
+    width:200px;
+}
+.debug section{
+    height: 600px;
+}
+.debug.section_pad.gray_bg{
     background-color: darkgray;
 }
-.purple_bg{
-    background-color: #8EA1E1;
+.debug .container{
+    height:100%;
 }
-.darkblue_bg{
-    background-color: #23272A;
+.debug .side_img{
+    background-color: lightsalmon;
+    height:100%;
 }
-.btn{
+.debug .side_txt{
+    background-color: lightslategrey;
+    height:100%;
+}
+.debug .top_txt{
+    height:30%;
+    background-color: lightslategrey;
+}
+.debug .bottom_img{
+    height: 80%;
+    background-color: salmon;
+}
+.debug main>section:last-child{
+    height: 180px;
+}
+.debug footer{
+    height: 600px;
+}
+.debug .footer_links{
+    height: 70%;
+}
+.debug .footer_col{
+    height: 100%;
+    background-color: darkslateblue;
+}
+.debug .signup{
+    height: 25%;
+    background-color: darkslategray;
+}
+.debug .signup>img{
+    background-color: firebrick;
+    padding:1rem;
     display: inline-block;
-    padding:.5rem;
-    margin: 1.2rem;
 }
-.section_pad{
-    padding: 10% 0;
-}
-
-
-
