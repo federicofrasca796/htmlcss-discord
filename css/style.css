@@ -56,6 +56,7 @@ h1{
     padding: 8px 16px;
     margin: 1.2rem .5rem;
     border-radius: 20px;
+    font-weight: 600;
 }
 .pad_10_0{
     padding: 10% 0;
@@ -74,26 +75,34 @@ h1{
 }
     /* navbar */
 #site_header nav{
-    padding: 2% 0;
+    padding: 4% 0;
     text-align: center;
+    position:relative;
 }
-
+#site_header nav>.logo , #site_header nav>ul , #site_header nav>.btn{
+    position:absolute;
+    top:50%;
+}
 #site_header nav>.logo{
     width:11%;
-    float: left;
+    left:0;
+    transform: translateY(-50%);
 }
 #site_header nav>ul{
     color: white;
     display: inline;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
 }
 nav li{
     display: inline;
     margin: 0 2%;
 }
-nav .btn{
-    float:right;
+#site_header nav>.btn{
     margin:0;
-
+    right:0;
+    transform: translateY(-50%);
 }
 .white_txt a{
     color: white;
