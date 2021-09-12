@@ -15,6 +15,9 @@
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: #3a3c3d ;
 }
+ul{
+    list-style: none;
+}
 a{
     text-decoration: none;
 }
@@ -29,6 +32,9 @@ h1{
 }
 .white_txt{
     color:white;
+}
+.purple_txt{
+    color: #596AA3;
 }
 .white_bg{
     background-color: white;
@@ -77,7 +83,6 @@ h1{
     float: left;
 }
 #site_header nav>ul{
-    list-style: none;
     color: white;
     display: inline;
 }
@@ -121,6 +126,10 @@ main .pad_10_0:last-child{
 }
 
 /* footer */
+
+    /* info and links */
+.footer_links{
+}
 .footer_links>.footer_col:first-child{
     width: 25%;
 }
@@ -129,20 +138,42 @@ main .pad_10_0:last-child{
     margin-right:7%;
     width: 10%;
 }
+.choose_lang>img{
+    height: 1rem;
+    vertical-align: middle;
+}
+.choose_lang>span>i{
+    font-size: .7rem;
+    vertical-align: middle;
+}
+.social_icons > i{
+    font-size: 1.1rem;
+    margin-right: 10%;
+}
+.footer_col li>a{
+    color: white;
+}
+
+    /* bottom banner */
 #site_footer>div>*:last-child{
     margin-top:5%;
     border-top: 2px solid #8EA1E1;
 }
 .signup{
     position: relative;
-}
-.signup>.logo,.signup>a{
-    margin: 2% 0;
+    padding: 5% 0;
 }
 .signup .btn{
     position: absolute;
     right: 0;
+    margin:0;
 }
+
+
+
+
+
+
 /* DEBUG -------------------------------------------------------------------------------- */
 .debug>#site_header{
     background-color: greenyellow;
