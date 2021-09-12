@@ -12,7 +12,7 @@
 
 /* utility */
 .container{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 .white_txt{
@@ -35,8 +35,9 @@
 }
 .btn{
     display: inline-block;
-    padding:.5rem;
-    margin: 1.2rem;
+    padding: 8px 16px;
+    margin: 1.2rem .5rem;
+    border-radius: 20px;
 }
 .section_pad{
     padding: 10% 0;
@@ -48,19 +49,57 @@
 /* body -----------------------------------------------------------------------*/
 
 /* common */
+*{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #3a3c3d ;
+}
+a{
+    text-decoration: none;
+}
 h1{
     margin-bottom: 2rem;
 }
+
 /* header */
 #site_header{
-    height: 70vh;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* navbar */
 #site_header nav{
-    height: 10%;
-    margin-bottom: 5%;
+    padding: 2% 0;
+    text-align: center;
 }
+
+#site_header nav>.logo{
+    /* nav logo selector */
+    width:11%;
+    float: left;
+    /* background-color: tomato; */
+}
+#site_header nav>ul{
+    list-style: none;
+    color: white;
+    display: inline;
+}
+nav li{
+    display: inline;
+    margin: 0 2%;
+}
+nav .btn{
+    float:right;
+    margin:0;
+
+}
+.white_txt a{
+    color: white;
+}
+
+/* onboarding content  */
 .intro{
-    padding: 0 10%;
+    padding: 5% 24%;
     text-align: center;
 }
 
@@ -73,11 +112,11 @@ h1{
 }
 .side_txt{
     width:30%;
+    padding-top: 1rem;;
 }
-.clearfix.section_pad>div:first-child{
+.clearfix.section_pad>*:first-child{
     margin-right:10%;
 }
-/* main>section:last-child>div{ */
 .cta>div{
     text-align: center;
 }
@@ -116,7 +155,7 @@ h1{
     background-color: lightskyblue;
     height: 60%;
 }
-.debug h1,h2,h3{
+.debug h1,.debug h2,.debug h3{
     background-color: black;
     height: 2rem;
 }
