@@ -55,11 +55,7 @@ h1{
 #site_header{
     height: 70vh;
 }
-#site_header>*{
-    width: 70% ;
-    margin: auto;
-}
-#site_header>nav{
+#site_header nav{
     height: 10%;
     margin-bottom: 5%;
 }
