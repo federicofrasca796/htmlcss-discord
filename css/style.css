@@ -10,6 +10,18 @@
     clear: both;
 }
 
+/* common */
+*{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #3a3c3d ;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 2rem;
+}
+
 /* utility */
 .container{
     width: 80%;
@@ -25,7 +37,7 @@
     background-color: rgb(31, 31, 31);
 }
 .gray_bg{
-    background-color: darkgray;
+    background-color: #F6F6F6;
 }
 .purple_bg{
     background-color: #8EA1E1;
@@ -47,18 +59,6 @@
 }
 
 /* body -----------------------------------------------------------------------*/
-
-/* common */
-*{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #3a3c3d ;
-}
-a{
-    text-decoration: none;
-}
-h1{
-    margin-bottom: 2rem;
-}
 
 /* header */
 #site_header{
