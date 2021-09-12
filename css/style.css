@@ -51,7 +51,7 @@ h1{
     margin: 1.2rem .5rem;
     border-radius: 20px;
 }
-.section_pad{
+.pad_10_0{
     padding: 10% 0;
 }
 .footer_pad{
@@ -66,18 +66,15 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* navbar */
+    /* navbar */
 #site_header nav{
     padding: 2% 0;
     text-align: center;
 }
 
 #site_header nav>.logo{
-    /* nav logo selector */
     width:11%;
     float: left;
-    /* background-color: tomato; */
 }
 #site_header nav>ul{
     list-style: none;
@@ -96,8 +93,7 @@ nav .btn{
 .white_txt a{
     color: white;
 }
-
-/* onboarding content  */
+    /* onboarding content  */
 .intro{
     padding: 5% 24%;
     text-align: center;
@@ -114,11 +110,14 @@ nav .btn{
     width:30%;
     padding-top: 1rem;;
 }
-.clearfix.section_pad>*:first-child{
+.centered_section > *{
+    text-align: center;
+}
+.clearfix.pad_10_0>*:first-child{
     margin-right:10%;
 }
-.cta>div{
-    text-align: center;
+main .pad_10_0:last-child{
+    padding-bottom: 5%;
 }
 
 /* footer */
@@ -170,7 +169,7 @@ nav .btn{
 .debug section{
     height: 600px;
 }
-.debug.section_pad.gray_bg{
+.debug.pad_10_0.gray_bg{
     background-color: darkgray;
 }
 .debug .container{
