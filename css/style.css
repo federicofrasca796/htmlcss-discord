@@ -19,7 +19,7 @@
     color:white;
 }
 .purple_txt{
-    color: #596AA3;
+    color: #7289DA;
 }
 .white_bg{
     background-color: white;
@@ -36,11 +36,14 @@
 .darkblue_bg{
     background-color: #23272A;
 }
+.logo{
+    width: 10%;
+}
 .btn{
     display: inline-block;
-    padding: 15px 20px;
-    margin: 0 .5rem;
-    border-radius: 25px;
+    padding: 20px 32px;
+    margin: 0 .8rem;
+    border-radius: 40px;
     font-weight: 600;
 }
 .pad_10_0{
@@ -49,12 +52,17 @@
 .footer_pad{
     padding: 6% 0;
 }
-
+.btn_small{
+    padding: 10px 20px;
+    font-size: .9rem;
+    margin:0;
+}
 
 /* common */
 *{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: #3a3c3d ;
+    font-size: 24px;
 }
 ul{
     list-style: none;
@@ -67,21 +75,23 @@ h1{
     margin-bottom: 2rem;
 }
 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    line-height: 2.5rem;
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 p{
-    line-height: 25px;
-    margin: 25px 0;
-    font-weight: 600;
+    margin: 2rem 0;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
 }
 i{
-    margin-right: 1rem;
+    margin-right: 15px;
+    font-size: 110%;
+    /* vertical-align: middle; */
 }
 
 /* body -----------------------------------------------------------------------*/
@@ -107,9 +117,6 @@ i{
     left:0;
     transform: translateY(-50%);
 }
-#site_header nav *{
-    font-size: 14px;
-}
 nav>ul{
     color: white;
     display: inline;
@@ -122,17 +129,15 @@ nav li{
     margin: 0 2%;
 }
 #site_header nav>.btn{
-    margin:0;
     right:0;
     transform: translateY(-50%);
-    padding: 8px 15px;
 }
 .white_txt a{
     color: white;
 }
     /* onboarding content  */
 .intro{
-    padding: 5% 20% 10%;
+    padding: 5% 18% 10%;
     text-align: center;
 }
 
@@ -141,10 +146,10 @@ nav li{
     float: left;
 }
 .side_img{
-    width:68%;
+    width:60%;
 }
 .side_txt{
-    width:22%;
+    width:30%;
     padding-top: 30px;
 }
 .centered_section > *{
@@ -153,7 +158,7 @@ nav li{
     margin:auto
 }
 .centered_section .text{
-    padding: 0 10%;
+    padding: 0 8%;
 }
 section>div.clearfix>*:first-child{
     margin-right:10%;
@@ -165,7 +170,7 @@ main .pad_10_0:last-child{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 30%;
+    width: 50%;
     line-height: 4rem;
     margin: auto;
 }
@@ -190,7 +195,7 @@ main .pad_10_0:last-child{
     width: 10%;
 }
 .choose_lang{
-    margin: 20px 0;
+    margin: 28px 0;
 }
 .choose_lang>img{
     height: 1rem;
@@ -201,7 +206,8 @@ main .pad_10_0:last-child{
     vertical-align: middle;
 }
 .social_icons > i{
-    font-size: 22px;
+    font-size: 28px;
+    margin-right:1.5rem;
 }
 .footer_col li{
     line-height: 2rem;
