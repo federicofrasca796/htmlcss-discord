@@ -242,6 +242,7 @@ main .gray_bg .container{
 }
 .footer_col li>a{
     color: white;
+    font-size: 20px;
 }
 
     /* bottom banner */
