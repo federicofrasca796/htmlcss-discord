@@ -165,9 +165,12 @@ main .pad_10_0:last-child{
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-y: -10px;
-    width: 42%;
+    width: 30%;
+    line-height: 4rem;
     margin: auto;
+}
+.btn.white_txt > i{
+    color: white;
 }
 .cta h3{
     margin: 1rem 0;
@@ -216,15 +219,14 @@ main .pad_10_0:last-child{
     position: relative;
     padding: 5% 0;
 }
+.signup .logo{
+    float:left;
+}
 .signup .btn{
-    position: absolute;
-    right: 0;
+    float:right;
     margin:0;
     padding: 8px 15px;
 }
-
-
-
 
 
 
